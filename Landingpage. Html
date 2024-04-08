@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Landing Page</title>
+</head>
+ 
+<body>
+    <nav>
+        <div class="heading">Landing Page</div>
+        <span class="sideMenuButton"
+            onclick="openNavbar()">
+        </span>
+ 
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+ 
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar"
+        id="sideNavigationBar">
+        <a href="#" class="closeButton"
+            onclick="closeNavbar()">
+            ❌
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+ 
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+           
+        </div>
+        <div class="side2">
+            <img src=
+            "https://img.freepik.com/free-photo/beautiful-luxury-outdoor-swimming-pool-hotel-resort_74190-7433.jpg?size=626&ext=jpg&ga=GA1.1.953157587.1712399276&semt=ais"
+                width="500">
+        </div>
+    </div>
+ 
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>hotel</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            hotel facilities
+                        </a>
+                    </div>
+                    <p>
+                         The lobby
+                        Check-in/check-out areas
+                        Food and dining spaces/services
+                        Hotel bar
+                        Fitness facilities
+                        Onsite spa
+                        Business center
+                        Meeting rooms
+                        Swimming pool
+                        Tennis courts
+                        Guest lounges
+                        Outdoor patio
+                        <img src=
+                        "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ6qCyie-okl-vvp90l-uNHlyyw5W0tHWcuGNR6StAMBaoAwXeH"
+                        width="100">
+                    </p>
+                </div>
+                <div class="box">
+ 
+                    <div class="topic">
+                        <a href="" target="_blank">
+                        </a>
+                    </div>
+                    <p>
+                        <img src=
+                        "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjBmb29kfGVufDB8fDB8fHww"
+                        width="100">
+                    </p>
+                </div>
+ 
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            types food varaties
+                        </a>
+                    </div>
+                    <p>
+                        <img src=
+                        "https://media.istockphoto.com/id/1316145932/photo/table-top-view-of-spicy-food.jpg?s=612x612&w=0&k=20&c=eaKRSIAoRGHMibSfahMyQS6iFADyVy1pnPdy1O5rZ98="
+                        width="100">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+ <h3>for hotel booking</h3>
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text"
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text"
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text"
+                            placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                            A-143, 9th Floor, Sovereign 
+                            Corporate Tower, Sector-136, 
+                            Noida, Uttar Pradesh - 201305
+                        </div>
+                        <div class="title1">
+                            <span>More Information</span>
+                        </div>
+                        <div class="content1">
